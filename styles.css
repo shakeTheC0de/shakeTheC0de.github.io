@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, section, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para header */
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+header p {
+    margin-top: 5px;
+    color: #777;
+}
+
+/* Estilos para secciones */
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para proyectos */
+.proyecto {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.proyecto h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+/* Estilos para footer */
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}
